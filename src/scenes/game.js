@@ -4,7 +4,7 @@ import { menu_button } from "../ui/buttons/menu_button";
 import { title_text_style } from "../ui/styles/text_styles";
 
 // Define the main menu scene
-k.scene('mainMenu', () => {
+k.scene('game', () => {
 
     // reset cursor to default on frame start for easier cursor management
     k.onUpdate(() => k.setCursor("default"));
@@ -12,7 +12,7 @@ k.scene('mainMenu', () => {
     // Add Title KAPONG!
     const title = k.add([
         k.pos(k.width() / 2, k.height() / 4),
-        k.text("KAPONG", title_text_style),
+        k.text("GAME", title_text_style),
         k.anchor(title_text_style.anchor)
     ]);
 
@@ -25,17 +25,6 @@ k.scene('mainMenu', () => {
             color: k.rgb(255, 255, 255),
         });
     });
-
-    // Adds the buttons with the function we added
-    menu_button(
-        {
-            x: k.width() / 2,
-            y: k.height() / 2,
-            w: 250,
-            h: 75,
-            text: "PLAY",
-            onClickAction: () => k.go("game")
-        });
 
 
 });

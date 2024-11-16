@@ -9,6 +9,9 @@ Project Description
 - [ ] Game  
 - [ ] Scene Manager  
 - [ ] Main Menu Scene  
+  - [ ] Add a centred Play button.  
+  - [ ] Pressing it navigates to Game/Board Scene.  
+  - [ ] Cleanup code.
 - [ ] Board  
 - [ ] Loading  
 - [ ] Audio  
