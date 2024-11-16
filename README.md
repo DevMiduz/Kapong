@@ -1,4 +1,9 @@
-# Folder structure
+
+# Kapong
+
+Kapong is a Pong game made using Kaplay.
+
+## Folder structure
 
 - `src` - source code for your kaplay project
 - `dist` - distribution folder, contains your index.html, built js bundle and static assets

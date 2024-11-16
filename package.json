@@ -1,5 +1,7 @@
 {
 	"name": "kapong",
+	"version": "0.0.1",
+	"description": "Kapong is a Pong game made using Kaplay.",
 	"type": "module",
 	"scripts": {
 		"build": "vite build",
@@ -7,6 +9,20 @@
 		"preview": "vite preview",
 		"zip": "npm run build && mkdir -p dist && zip -r dist/game.zip dist -x \"**/.DS_Store\""
 	},
+	"repository": "git+https://github.com/DevMiduz/kapong.git",
+	"keywords": [
+	  "kapong",
+	  "pong",
+	  "vite",
+	  "kaplay",
+	  "kaboom"
+	],
+	"author": "Dev Miduz",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/DevMiduz/kapong/issues"
+	  },
+	"homepage": "https://github.com/DevMiduz/kapong#readme",
 	"dependencies": {
 		"kaplay": "^3001.0.2"
 	},
